@@ -9,7 +9,7 @@ attr_reader :name, :backed_projects
   def back_project (project)
     backed_projects << project
     if !add_backer.include?(project)
-      add_backer << project
+     project.add_backer(self)
     end
   end 
 
