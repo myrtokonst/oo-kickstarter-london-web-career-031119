@@ -8,6 +8,7 @@ class Project
   
   def add_backer (project)
     @backers << project
+    if !backers.project
   end  
   
   
