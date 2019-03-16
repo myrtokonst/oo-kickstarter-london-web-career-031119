@@ -10,6 +10,7 @@ attr_reader :name, :backed_projects
     backed_projects << project
     if !add_backer.include?(project)
       add_backer << project
+    end
   end 
 
 
